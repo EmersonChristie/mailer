@@ -1,0 +1,27 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "A module for sending template marketing emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmersonChristie/mailer.git"
+  },
+  "keywords": [
+    "email"
+  ],
+  "author": "Emerson Christie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmersonChristie/mailer/issues"
+  },
+  "homepage": "https://github.com/EmersonChristie/mailer#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "email-templates": "^7.0.4",
+    "nodemailer": "^6.4.4"
+  }
+}
