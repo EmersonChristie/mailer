@@ -13,15 +13,15 @@ const transporter = nodemailer.createTransport({
 });
 
 const sendResetPassword = async (toEmail, firstName, lastName) => {
-  const email = new Email({
+  const myEmail = new Email({
     transport: transporter,
     send: true,
     preview: false
   });
 
-  email
+  myEmail
     .send({
-      template: "resetPassword",
+      template: "singleImage",
       message: {
         from: "Patricia Qualls Gallery <no-reply@patriciaqualls.com>",
         to: toEmail
